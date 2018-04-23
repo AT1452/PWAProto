@@ -7,11 +7,14 @@ export default class Content extends Component {
         return (
             <div className="card">
                 <div className="card-body">
-                    <h5 className="card-title">React PWA Example</h5>
-                    <p className="card-text">A Progressive Web App (PWA) is a web app that uses advanced web capabilities to provide an app-like experience to users. Unlike traditional applications, Progressive web apps are a hybrid of regular web pages (or websites) and a mobile application.</p>
-                    <a href="https://appdividend.com" className="btn btn-primary">Does this work?</a>
+                    <h5 className="card-title">Welcome back</h5>
+                    <p className="card-text">
+                        Click below to repeat your recent order, or open up the menu to try something new!
+                    </p>
+                    <a href="#" className="btn btn-primary">Order now</a>
                 </div>
             </div>
         )
+
     }
 }
