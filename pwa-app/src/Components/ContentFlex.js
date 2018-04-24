@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Content from "./Contents";
 
 const styles = {
     root:{
@@ -12,6 +11,7 @@ const ContentFlex = (props) => {
 
     return (
         <div className="card" style={rootStyle}>
+            {props.header}
             <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">
@@ -24,9 +24,13 @@ const ContentFlex = (props) => {
 
 };
 
-Content.propTypes = {
+ContentFlex.propTypes = {
     style: PropTypes.object,
     title: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+    ]),
+    header: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.object,
     ]),

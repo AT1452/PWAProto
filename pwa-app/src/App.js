@@ -2,20 +2,20 @@
 
 import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
-import Contents from './Components/Contents'
 import Sidebar from 'react-sidebar';
-import MaterialTitlePanel from './Components/MaterialTitlePanel'
+import MaterialTitlePanel from './Components/MaterialTitlePanel';
 import MediaQuery from 'react-responsive';
-import ContentFlex from './Components/ContentFlex'
+import ContentFlex from './Components/ContentFlex';
+import Button from 'material-ui/Button';
 
-var responsiveWidth = window.outerWidth * 0.45;
+var responsiveWidth = 0;
 
-/**if(window.outerWidth < 438){
+if(window.outerWidth < 992){
     responsiveWidth = window.outerWidth * 0.45;
 }
-else if(window.outerWidth > 438){
-    responsiveWidth = window.outerWidth * 0.45;
-}**/
+else if(window.outerWidth >= 992){
+    responsiveWidth = window.outerWidth * 0.35;
+}
 
 
 const styles = {
@@ -29,6 +29,10 @@ const styles = {
         width: responsiveWidth,
         height : window.outerHeight
     },
+    navbarButton: {
+        height : 60,
+    },
+
 };
 
 class App extends Component {
@@ -89,11 +93,11 @@ class App extends Component {
                         <li>Only dependency is React</li>
                     </ul>
                     */}
-                    <button className="btn btn-primary btn-block">Menu</button>
-                    <button className="btn btn-primary btn-block">What's new</button>
-                    <button className="btn btn-primary btn-block">Specials/Exclusive</button>
-                    <button className="btn btn-primary btn-block">Order now</button>
-                    <button className="btn btn-primary btn-block">About us</button>
+                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Menu</Button>
+                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">What's new</Button>
+                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Specials/Exclusive</Button>
+                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Order Now</Button>
+                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">About Us</Button>
                 </div>
             </MaterialTitlePanel>
         );
@@ -116,14 +120,13 @@ class App extends Component {
         return (
 
             <div>
+
+
             <Sidebar
-                sidebar={sideBarContent}
-                open={this.state.sidebarOpen}
-                {...sidebarProps}
-            >
-            </Sidebar>
-
-
+                    sidebar={sideBarContent}
+                    open={this.state.sidebarOpen}
+                    {...sidebarProps}
+                />
             <Navbar
                 isDocked = {this.state.docked}
                 menuButtonClick = {this.menuButtonClick}
@@ -132,14 +135,31 @@ class App extends Component {
             <ContentFlex
                 title = "Welcome back"
                 body = "Click below to repeat your recent order, or open up the menu to try something new!"
-                ctaButton = {<a href="#" className="btn btn-primary">Order now</a>}
+                ctaButton = {<a href="#" className="btn btn-primary">Reorder now</a>}
             />
             <br/>
             <ContentFlex
-                title = "Flexible response"
-                body = "JFK's genius plan to actually do what the situation calls for, what a guy"
-                ctaButton = {<a href="#" className="btn btn-primary">Launch nuke</a>}
+                title = "It's on us"
+                body = "Thanks for being a loyal customer and friend, here's a free drink on us."
+                ctaButton = {<a href="#" className="btn btn-primary">Claim Offer</a>}
+                header = {<div className='card-header bg-warning'>Members only</div>}
             />
+            <br/>
+            <ContentFlex
+                title = "Secret menu"
+                body = "Psst, have you heard about the Nacho Chicken Wings?
+                    Neither has anyone else, try our secret menu,
+                    only for close friends."
+                header = {<div className='card-header bg-warning'>Members only</div>}
+            />
+            <br/>
+            <ContentFlex
+                title = "Check this out!"
+                body = "Come in and try out our new Spring Cocktail, created by our very own John Smith."
+                header = {<div className='card-header'>Featured</div>}
+            />
+
+
 
             </div>
         );

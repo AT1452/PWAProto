@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContentFlex.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContentFlex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/ContentFlex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="-299">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/MaterialTitlePanel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -38,16 +38,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Navbar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/Navbar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pwa-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+            <state relative-caret-position="256">
+              <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
               <folding>
                 <element signature="e#11#52#0" expanded="true" />
-                <element signature="e#1659#3080#0" />
-                <element signature="e#3681#3847#0" />
-                <element signature="e#3862#3988#0" />
+                <element signature="e#916#1194#0" />
+                <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+                <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+                <element signature="e#1841#3372#0" />
+                <element signature="e#3414#3921#0" />
+                <element signature="e#3943#4099#0" />
+                <element signature="e#4154#4280#0" />
+                <element signature="e#4311#4569#0" />
+                <element signature="e#4600#4856#0" />
+                <element signature="e#4851#5110#0" />
+                <element signature="e#4847#4874#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-app/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-app/src/logo.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pwa-app/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +107,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>classname</find>
+      <find>children</find>
     </findStrings>
     <replaceStrings>
       <replace>class</replace>
@@ -82,13 +125,13 @@
         <option value="$PROJECT_DIR$/pwa-app/src/constants/action-types.js" />
         <option value="$PROJECT_DIR$/pwa-app/src/actions/index.js" />
         <option value="$PROJECT_DIR$/pwa-app/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/pwa-app/public/index.html" />
         <option value="$PROJECT_DIR$/pwa-app/package.json" />
         <option value="$PROJECT_DIR$/pwa-app/src/Components/MaterialPanel.js" />
         <option value="$PROJECT_DIR$/pwa-app/src/Components/MaterialTitlePanel.js" />
-        <option value="$PROJECT_DIR$/pwa-app/src/Components/Navbar.js" />
         <option value="$PROJECT_DIR$/pwa-app/src/Components/Contents.js" />
+        <option value="$PROJECT_DIR$/pwa-app/public/index.html" />
         <option value="$PROJECT_DIR$/pwa-app/src/Components/ContentFlex.js" />
+        <option value="$PROJECT_DIR$/pwa-app/src/Components/Navbar.js" />
         <option value="$PROJECT_DIR$/pwa-app/src/App.js" />
       </list>
     </option>
@@ -110,16 +153,17 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="619" />
-    <option name="height" value="705" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="620" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,12 +175,6 @@
               <item name="PWAPrototype" type="b2602c69:ProjectViewProjectNode" />
               <item name="PWAPrototype" type="462c0819:PsiDirectoryNode" />
               <item name="pwa-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PWAPrototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PWAPrototype" type="462c0819:PsiDirectoryNode" />
-              <item name="pwa-app" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PWAPrototype" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,24 +246,25 @@
       <workItem from="1524193014484" duration="9092000" />
       <workItem from="1524335671989" duration="17639000" />
       <workItem from="1524442968064" duration="4549000" />
+      <workItem from="1524523055423" duration="6211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34165000" />
+    <option name="totallyTimeSpent" value="40376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32947233" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32947233" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -244,16 +282,70 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/ContentFlex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/MaterialTitlePanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+          <folding>
+            <element signature="e#11#52#0" expanded="true" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="e#11#52#0" expanded="true" />
-            <element signature="e#1659#3080#0" />
-            <element signature="e#3681#3847#0" />
-            <element signature="e#3862#3988#0" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
           </folding>
         </state>
       </provider>
@@ -316,9 +408,17 @@
           <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding>
             <element signature="e#11#52#0" expanded="true" />
-            <element signature="e#1659#3080#0" />
-            <element signature="e#3681#3847#0" />
-            <element signature="e#3862#3988#0" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
           </folding>
         </state>
       </provider>
@@ -329,9 +429,17 @@
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#11#52#0" expanded="true" />
-            <element signature="e#1659#3080#0" />
-            <element signature="e#3681#3847#0" />
-            <element signature="e#3862#3988#0" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
           </folding>
         </state>
       </provider>
@@ -384,9 +492,17 @@
           <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#11#52#0" expanded="true" />
-            <element signature="e#1659#3080#0" />
-            <element signature="e#3681#3847#0" />
-            <element signature="e#3862#3988#0" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
           </folding>
         </state>
       </provider>
@@ -440,19 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-app/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -474,24 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/rdxStore/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-app/src/constants/action-types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -509,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/Navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/Contents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -523,35 +605,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/App.js">
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/rdxStore/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="138" column="36" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#11#52#0" expanded="true" />
-            <element signature="e#1659#3080#0" />
-            <element signature="e#3681#3847#0" />
-            <element signature="e#3862#3988#0" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/ContentFlex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/MaterialTitlePanel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pwa-app/src/Components/ContentFlex.js">
+    <entry file="file://$PROJECT_DIR$/pwa-app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="256">
+          <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#11#52#0" expanded="true" />
+            <element signature="e#916#1194#0" />
+            <element signature="n#!!block;n#onSetOpen#0;n#App#0" />
+            <element signature="n#!!block;n#menuButtonClick#0;n#App#0" />
+            <element signature="e#1841#3372#0" />
+            <element signature="e#3414#3921#0" />
+            <element signature="e#3943#4099#0" />
+            <element signature="e#4154#4280#0" />
+            <element signature="e#4311#4569#0" />
+            <element signature="e#4600#4856#0" />
+            <element signature="e#4851#5110#0" />
+            <element signature="e#4847#4874#0" />
           </folding>
         </state>
       </provider>

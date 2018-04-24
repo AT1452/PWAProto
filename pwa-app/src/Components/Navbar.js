@@ -6,7 +6,7 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top navbar-inverse">
 
                     <span className = "navbar-toggler-icon" onClick={this.props.menuButtonClick} />
                     &nbsp;
