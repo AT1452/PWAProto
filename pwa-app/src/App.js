@@ -4,9 +4,17 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar';
 import Sidebar from 'react-sidebar';
 import MaterialTitlePanel from './Components/MaterialTitlePanel';
-import MediaQuery from 'react-responsive';
 import ContentFlex from './Components/ContentFlex';
 import Button from 'material-ui/Button';
+import logo from './Assets/barLogo.jpg';
+import {
+    Route,
+    NavLink,
+    HashRouter
+} from "react-router-dom";
+import Menu from './Menu';
+
+
 
 var responsiveWidth = 0;
 
@@ -79,27 +87,33 @@ class App extends Component {
     render() {
 
         var sideBarContent  = (
+            <HashRouter>
             <MaterialTitlePanel title = "Welcome!">
-                <div style={styles.content}>
-                    {/*
-                    <p>React Sidebar is a sidebar component for React. It offers the following features:</p>
-                    <ul>
-                        <li>Have the sidebar slide over main content</li>
-                        <li>Dock the sidebar next to the content</li>
-                        <li>Touch enabled: swipe to open and close the sidebar</li>
-                        <li>Easy to combine with media queries for auto-docking (<a href="responsive_example.html">see example</a>)</li>
-                        <li>Sidebar and content passed in as PORCs (Plain Old React Components)</li>
-                        <li><a href="https://github.com/balloob/react-sidebar">Source on GitHub</a> (MIT license)</li>
-                        <li>Only dependency is React</li>
-                    </ul>
-                    */}
-                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Menu</Button>
-                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">What's new</Button>
-                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Specials/Exclusive</Button>
-                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Order Now</Button>
-                    <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">About Us</Button>
-                </div>
+                    <div style={styles.content}>
+                        {/*
+                        <p>React Sidebar is a sidebar component for React. It offers the following features:</p>
+                        <ul>
+                            <li>Have the sidebar slide over main content</li>
+                            <li>Dock the sidebar next to the content</li>
+                            <li>Touch enabled: swipe to open and close the sidebar</li>
+                            <li>Easy to combine with media queries for auto-docking (<a href="responsive_example.html">see example</a>)</li>
+                            <li>Sidebar and content passed in as PORCs (Plain Old React Components)</li>
+                            <li><a href="https://github.com/balloob/react-sidebar">Source on GitHub</a> (MIT license)</li>
+                            <li>Only dependency is React</li>
+                        </ul>
+                        */}
+                        <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block"><NavLink to = "/menu">Menu</NavLink></Button>
+                        <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">What's new</Button>
+                        <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Specials/Exclusive</Button>
+                        <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">Order Now</Button>
+                        <Button color = "primary" style = {styles.navbarButton} className = "btn btn-block">About Us</Button>
+
+
+                    </div>
+
+
             </MaterialTitlePanel>
+            </HashRouter>
         );
 
         const sidebarProps = {
@@ -119,8 +133,7 @@ class App extends Component {
 
         return (
 
-            <div>
-
+            <div style={{justifyContent: 'center', alignItems: 'center'}}>
 
             <Sidebar
                     sidebar={sideBarContent}
@@ -158,12 +171,12 @@ class App extends Component {
                 body = "Come in and try out our new Spring Cocktail, created by our very own John Smith."
                 header = {<div className='card-header'>Featured</div>}
             />
-
-
-
+            <br/>
             </div>
+
         );
     }
 }
+
 
 export default App;
