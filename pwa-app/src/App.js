@@ -132,47 +132,63 @@ class App extends Component {
 
 
         return (
+            <HashRouter>
 
             <div style={{justifyContent: 'center', alignItems: 'center'}}>
 
             <Sidebar
-                    sidebar={sideBarContent}
-                    open={this.state.sidebarOpen}
-                    {...sidebarProps}
-                />
+                sidebar={sideBarContent}
+                open={this.state.sidebarOpen}
+                {...sidebarProps}
+            />
             <Navbar
                 isDocked = {this.state.docked}
                 menuButtonClick = {this.menuButtonClick}
             />
             <br/>
-            <ContentFlex
-                title = "Welcome back"
-                body = "Click below to repeat your recent order, or open up the menu to try something new!"
-                ctaButton = {<a href="#" className="btn btn-primary">Reorder now</a>}
-            />
-            <br/>
-            <ContentFlex
-                title = "It's on us"
-                body = "Thanks for being a loyal customer and friend, here's a free drink on us."
-                ctaButton = {<a href="#" className="btn btn-primary">Claim Offer</a>}
-                header = {<div className='card-header bg-warning'>Members only</div>}
-            />
-            <br/>
-            <ContentFlex
-                title = "Secret menu"
-                body = "Psst, have you heard about the Nacho Chicken Wings?
+
+            <Route exact = {true} path = "/" render  = {() => (
+
+                <div>
+                    <ContentFlex
+                        title = "Welcome back"
+                        body = "Click below to repeat your recent order, or open up the menu to try something new!"
+                        ctaButton = {<a href="#" className="btn btn-primary">Reorder now</a>}
+                    />
+                    <br/>
+                    <ContentFlex
+                        title = "It's on us"
+                        body = "Thanks for being a loyal customer and friend, here's a free drink on us."
+                        ctaButton = {<a href="#" className="btn btn-primary">Claim Offer</a>}
+                        header = {<div className='card-header bg-warning'>Members only</div>}
+                    />
+                    <br/>
+                    <ContentFlex
+                        title = "Secret menu"
+                        body = "Psst, have you heard about the Nacho Chicken Wings?
                     Neither has anyone else, try our secret menu,
                     only for close friends."
-                header = {<div className='card-header bg-warning'>Members only</div>}
-            />
-            <br/>
-            <ContentFlex
-                title = "Check this out!"
-                body = "Come in and try out our new Spring Cocktail, created by our very own John Smith."
-                header = {<div className='card-header'>Featured</div>}
-            />
-            <br/>
+                        header = {<div className='card-header bg-warning'>Members only</div>}
+                    />
+                    <br/>
+                    <ContentFlex
+                        title = "Check this out!"
+                        body = "Come in and try out our new Spring Cocktail, created by our very own John Smith."
+                        header = {<div className='card-header'>Featured</div>}
+                    />
+                    <br/>
+                </div>
+
+            )}/>
+
+            <Route path = "/menu" component = {Menu}/>
+
+
+
+
             </div>
+
+            </HashRouter>
 
         );
     }
